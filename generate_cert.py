@@ -20,7 +20,6 @@ def make_cert(name):
     print('printing certificate of: '+name)
 
 
-names = ['Natasha Romanova', 'John Wick',
-         'Bruce Wayne', 'Diana Prince', 'Tony Stark']
+names = ['Natasha Romanova', 'John Wick', 'Bruce Wayne', 'Diana Prince', 'Tony Stark']
 for x in names:
     make_cert(x)
